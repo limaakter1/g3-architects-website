@@ -2,3 +2,28 @@
 * {
     font-family: "Work Sans", serif;
 }
+/* header style */
+header{
+    background-color: #FFF4E7;
+    padding: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.website-name{
+    font-size: 2rem;
+}
+nav> ul> li{
+    list-style: none;
+    padding: 20px;
+}
+nav> ul> li> a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+nav>ul{
+    display: flex;
+}
